@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "krystals_armoury:item/anglers_cleaver"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"cast": 1
+			},
+			"model": "krystals_armoury:item/anglers_cleaver_cast"
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [65, -89.82, 102.86],
+			"translation": [0, 16, 4],
+			"scale": [2, 2, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [40, 89.8, -78.07],
+			"translation": [0, 16.25, 3.75],
+			"scale": [2, 2, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [73.87, -89.82, 102.86],
+			"translation": [0, 14.75, 1.75],
+			"scale": [2, 2, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [54.98, 89.82, -78.07],
+			"translation": [0, 13.5, 1.5],
+			"scale": [2, 2, 1]
+		},
+		"ground": {
+			"translation": [0, 4, 0],
+			"scale": [1, 1, 0.5]
+		}
+	}
+}

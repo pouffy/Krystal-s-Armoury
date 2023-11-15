@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "krystals_armoury:item/anglers_cleaver",
+	"textures": {
+		"layer0": "krystals_armoury:item/anglers_cleaver_cast"
+	}
+}
